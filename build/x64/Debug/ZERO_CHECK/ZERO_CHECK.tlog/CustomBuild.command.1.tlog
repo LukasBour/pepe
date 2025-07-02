@@ -1,0 +1,10 @@
+^C:\GITHUB\PEPE\BUILD\CMAKEFILES\D71A24EFABC1DC6DACD55645BFF95A6E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/GitHub/pepe -BC:/GitHub/pepe/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/GitHub/pepe/build/pepe.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
