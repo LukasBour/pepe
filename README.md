@@ -39,7 +39,7 @@ Should work almost similar but idk, I use Windows. Will update this part when I 
 
 pepe prints an ASCII-Art image of pepe in the console. To make sure that the image is displayed correctly, your console window has to support UTF-8 encoding and must be configured to use it, too. In addition to that, the currently used font of your console has to support braille characters. Else the image will just be displayed as some random characters. Maybe in a future version I will change the image to enable better font / console support. 
 
-To set the encoding of powershell to UTF-8, you have to edit your "settings.json" file. The file can be accessed by opening the Terminal-App (Win-11) and clicking on the field in the bottom left corner. The contents of the file should loke something like this
+To set the encoding of powershell to UTF-8, you have to edit your "settings.json" file. The file can be accessed by opening the Terminal-App (Win-11) and clicking on the field in the bottom left corner. The contents of the file should look something like this
 ```JSON
 {
     "$help": "https://aka.ms/terminal-documentation",
