@@ -1,3 +1,9 @@
+# Build dir
+build/
+
+# Vistual studio dir
+.vs/
+
 # Prerequisites
 *.d
 
